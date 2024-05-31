@@ -1,0 +1,83 @@
+*{
+    font-family: q;
+}
+
+html{
+    background-color:#0f0f0f;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#0f0f0f;
+    color: #fefefe;
+}
+
+.Menu{
+    width: 98vw;
+    margin: 1vw;
+    padding: 0.1cm 0cm 0.1cm 0cm;
+    border-radius: 1cm;
+    background-color: #222222;
+}
+
+.Menu>button{
+    border-radius: 50%;
+    padding: 2px 2px 2px 2px;
+    background-color: #010101;
+    margin-left: 0.2cm;
+}
+
+.Menu>button>img{
+    height: 35px;
+    width: 40px;
+}
+
+.Section{
+    padding-left: 0.25cm;
+    padding-right: 0.25cm;
+    text-align: justify;
+}
+
+.account{
+    content: 1cm 1cm 1cm 1cm;
+    border-radius: 1cm;
+    border-width: 1cm;
+}
+
+
+.Menu>button:hover{
+    background-color: #444444;
+}
+
+
+#Itsme{
+    font-size : 1cm;
+    background-color: #993494;
+    animation-name: init-text;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    padding-left: 0.5cm;
+}
+
+#Introduction>tbody>tr>td, #Introduction>tbody>tr>th, #Introduction{
+    font-size: large;
+    border: 1px solid whitesmoke;
+    padding: 10% 10% 10% 5%;
+    border-collapse: collapse;
+}
+
+#Introduction>tbody>tr>th{
+    padding: 2px 20px 2px 2px;
+}
+
+
+@keyframes init-text {
+    from {
+        color: #fefefe00;
+        padding-left: 2cm;
+    }
+    to {
+        color: #fefefe;
+        padding-left: 0.5cm;
+    }
+}
